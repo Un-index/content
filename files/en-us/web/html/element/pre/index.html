@@ -90,6 +90,11 @@ body {
 
 <pre>&lt;figure role="img" aria-labelledby="cow-caption"&gt;
   &lt;pre&gt;
+  &lt;!--
+    note that the reserved characters (&lt;, &gt;, &apos;, &#8217;, &quot;, &amp;) need to be escaped via their
+    corresponding HTML entities: https://dev.w3.org/html5/html-author/charref within
+    the &lt;pre&gt; tag (they are escaped within this &lt;pre&gt; tag)
+  --&gt;
   ___________________________
 &lt; I'm an expert in my field. &gt;
   ---------------------------
