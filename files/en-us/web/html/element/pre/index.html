@@ -78,7 +78,8 @@ body {
 
 <p>{{EmbedLiveSample("Example")}}</p>
 
-<div class="notecard note"><p><strong>Note:</strong> If you have HTML tags in the content you want to display literally, rather than parsed as HTML, you will need to encode the angle brackets. For example <code>&amp;lt;p&amp;gt;</code> to display <code>&lt;p&gt;</code>.</p></div>
+<div class="notecard note"><p><strong>Note:</strong> Unless they should be parsed as HTML, reserved characters such as &lt; &gt; &apos; &#8217; &quot; &amp; need to be escaped via their <a href="https://dev.w3.org/html5/html-author/charref">corresponding HTML entities</a> within the &lt;pre&gt; tag. For example <code>&amp;lt;p&amp;gt;</code> to display <code>&lt;p&gt;</code>.</p></div>
+
 
 <h2 id="Accessibility_concerns">Accessibility concerns</h2>
 
